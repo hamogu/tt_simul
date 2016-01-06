@@ -1,0 +1,13 @@
+
+
+DL> tt_synthetic, 900,1200,out=fuse,dens=hydrodyn[2,*],logt_i=ioneq_logt,ioneq=ifile,/tt_sim,logem_i=alog10(volem)
+% CH_SYNTHETIC: Line intensities computed in   2833.4 seconds
+% Program caused arithmetic error: Floating divide by 0
+% Program caused arithmetic error: Floating underflow
+IDL> make_chianti_spec, fuse,lambda,fusespec,bin_size=0.01,instr=0.1,abund='../tt_data/twhya.abund'
+
+For interactive identification of lines
+IDL> intensity = fusespec.lines[*].int * abund[fusespec.lines[*].iz-1]
+IDL> list_ident = strpad(fusespec.lines[*].snote, 14,/after)+  '  Int='+string(intensity[*], '(e10.2)')+'  Tmax='+string(fusespec.lines[*].tmax,'(f4.1)')+''+ strtrim(string(fusespec.lines[*].ident), 2)
+IDL> synthetic_plot,fusespec.lambda,fusespec.spectrum,fusespec.lines.wvl,list_ident,3
+

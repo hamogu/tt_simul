@@ -1,0 +1,8 @@
+To start IDL VM applications remotely
+here in the example of tt_simul_list.sav
+
+ssh hspcXX -X				#X forwarding is necessary to get the IDL VM into display, where you need to click withthe mouse
+bash					#in ths standart login shell nice does not wirk
+. ~/hs_idl.ksh				#or any othe script that sets the $IDL_DIR environment variable
+nice -+19 $IDL_DIR/bin/idl -vm=/scratch/hspc62/steh305/tt_results/large_grid/tt_simul_list.sav &
+nice -+19 $IDL_DIR/bin/idl -vm=/data/hspc62/steh305/idl/tt_simul/IDLVM/tt_simul_list.sav &		# start in bg, so fg is free for tops etc.

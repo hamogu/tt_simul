@@ -1,0 +1,11 @@
+max_number_of_steps=1000 ;adjust later
+;max_depth=1000.*km	;adjust later
+max_depth=1e15*km
+
+max_hydrodyn_change=0.2
+max_ioneq_change=0.2
+min_stepsize=1e3*cm
+
+a=1*cm^2
+
+T_star_default=0.
