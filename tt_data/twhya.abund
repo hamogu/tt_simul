@@ -1,0 +1,35 @@
+ 1  12.00  H   
+ 2  10.93  He
+ 6   8.04  C   
+ 7   7.96  N   
+ 8   8.34  O   
+ 9   4.60  F   
+10   8.34  Ne
+11   6.25  Na
+12   6.94  Mg
+13   6.39  Al 
+14   7.05  Si 
+15   5.52  P  
+16   7.20  S  
+17   5.6   Cl
+18   6.8   Ar 
+19   4.95  K  
+20   6.30  Ca
+21   3.22  Sc
+22   5.13  Ti
+23   4.40  V  
+24   5.85  Cr
+25   5.40  Mn
+26   7.12  Fe
+27   5.10  Co
+28   6.30  Ni
+29   4.50  Cu
+30   4.20  Zn
+ -1
+%filename: TWhya.abund
+%elemental abundances: Allen, C.W., 1973, Astrophysical Quantities
+%modified with grain-depletion in TW Hya
+% produced as results of TT_SIMUL 
+%
+% Moritz Günther, 14.10.05
+ -1

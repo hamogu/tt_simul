@@ -1,0 +1,32 @@
+ 1  12.00  H   
+ 2  10.93  He
+ 6  10.52  C   
+ 7  10.96  N   
+ 8  10.82  O   
+ 9  10.60  F   
+10  10.92  Ne
+11  10.25  Na
+12  10.42  Mg
+13  10.39  Al 
+14  10.52  Si 
+15  10.52  P  
+16  10.20  S  
+17  10.6   Cl
+18  10.8   Ar 
+19  10.95  K  
+20  10.30  Ca
+21  10.22  Sc
+22  10.13  Ti
+23  10.40  V  
+24  10.85  Cr
+25  10.40  Mn
+26  10.60  Fe
+27  10.10  Co
+28  10.30  Ni
+29  10.50  Cu
+30  10.20  Zn
+ -1
+%filename: extremetest.abund
+%very extreme abundances for test purposes of tt_simul
+%e.g. check if the rate equation are really independend of abundance
+ -1
